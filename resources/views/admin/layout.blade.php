@@ -29,6 +29,6 @@
 </div>
 
 @include('admin.components.footer_scripts')
-
+@yield('footer_scripts_for_pages')
 </body>
 </html>

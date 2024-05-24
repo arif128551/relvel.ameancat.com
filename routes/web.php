@@ -15,3 +15,4 @@ Route::post('/application/remarks/store/{id}', [IndividualController::class,'app
 Route::get('/application/dispose/{id}', [IndividualController::class,'application_dispose'])->name('application.dispose');
 
 
+Route::post('/application/review', [IndividualController::class,'application_review'])->name('application.review');
